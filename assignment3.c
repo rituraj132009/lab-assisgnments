@@ -19,19 +19,19 @@ int main()
 
     switch (opt)
     {
-    case 1: opt==1;
+    case 1:
     printf("Addition is : %d \n", a+b );
     break;
 
-    case 2: opt==2;
+    case 2:
     printf("Substraction is :  %d \n" , a-b );
     break;
 
-    case 3: opt==3;
+    case 3:
     printf("Multiplication is : %d \n" , a*b);
     break;
 
-    case 4: opt==4;
+    case 4:
     if (b==0)
     {
         printf("Division by 0 is not possible\n");
@@ -44,7 +44,7 @@ int main()
 
     break;
 
-    case 5: opt==5;
+    case 5:
     printf("The Sqaure of 1st number : %d\n" , a*a);
     printf("The Square of 2nd number : %d\n" , b*b);
     break;
